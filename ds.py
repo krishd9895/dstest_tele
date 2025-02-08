@@ -6,7 +6,7 @@ from io import BytesIO
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import time
-from session_manager import session_manager
+from session_manager(headless) import session_manager
 import json
 
 # Bot instance handling
